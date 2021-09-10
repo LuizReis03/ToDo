@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    border: none;
+    list-style: none;
+}
+
+.fundo-lista{
+    border: linear-gradient(to right, black, white) 1px solid;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    padding: 20px 20px;
+    width: 70%;
+    margin: auto;
+}
+
+#divAdd {
+    background-color: rgb(110, 160, 160);
+    margin-top: 20px !important;
+    width: 50%;
+    font-family: 'Cairo', sans-serif;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding: 50px 50px;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 26px;
+    margin-top: 80px !important;
+    font-family: 'Cairo', sans-serif;
+    color: #646464;
+}
+
+#descricaoTarefa{
+    width: 30%;
+    height: auto;
+    margin-right: 25px;
+    border: none;
+}
+
+#prioridadeTarefa{
+    color: black;
+    font-size: 16px;
+    margin-right: 25px;
+    border: none;
+}
+
+.btn-add{
+    border: none;
+}
+
+#divLista {
+    margin-left: 20px;
+}
+
+.tarefa {
+    margin-left: 20%;
+    font-family: 'Cairo', sans-serif;
+    font-size: 56px;
+    margin-top: 20px;
+}
+
+.descTarefa {
+    display: inline;
+}
+
+.prioridade-alta {
+    color: red;
+    font-size: large;
+}
+
+.prioridade-normal {
+    color: black;
+    font-size: large;
+}
+
+.prioridade-baixa {
+    color: green;
+    font-size: large;
+}
